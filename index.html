@@ -1,0 +1,536 @@
+<!doctype html>
+<html lang="fa" dir="rtl">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport"
+          content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Mini Digikala</title>
+    <link rel="stylesheet" href="css/reset.css">
+    <link rel="stylesheet" href="css/grid.css">
+    <link rel="stylesheet" href="css/fonts.css">
+    <link rel="stylesheet" href="lib/font awesome/css/all.css">
+    <link rel="stylesheet" href="lib/font awesome/css/font-awsome-4.7.0.min.css">
+    <link rel="stylesheet" href="lib/swiper/swiper-bundle.min.css">
+    <link rel="stylesheet" href="css/app.css">
+    <link rel="stylesheet" href="css/responsive.css">
+
+</head>
+<body>
+  <nav class="navbar">
+    <div class="navbarTop">
+        <div class="navbarTop__right">
+            <img src="https://www.digikala.com/brand/full-horizontal.svg" alt="" class="navbarTop__right-logo2">
+            <div class="navbar__search-box">
+                <span class="navbar__search-box-icon">
+                    <i class="fa fa-search"></i>
+                </span>
+                <span class="navbar__search-box-text">جستجو</span>
+            </div>
+        </div>
+        <div class="navbarTop__left">
+
+            <a href="#" class="navbarTop__auth-btn">
+                <i class="fa fa-sign-out navbarTop__auth-icon"></i>
+                ورود | ثبت نام
+
+            </a>
+            <hr>
+            <a href="" class="navbarTop__cart-btn">
+                <i class="fa fa-shopping-cart"></i>
+
+            </a>
+        </div>
+    </div>
+
+    <div class="navbarBottom">
+              <div class="navbarBottom__right">
+                  <a href="" class="navbar__item navbar__item--bold">
+                      <i class="fa fa-bars navbar__item-icon navbar__item-icon--bold"></i>
+                      دسته بندی کالا ها
+                  </a>
+                  <hr class="navbar__item-line">
+                  <a href="" class="navbar__item">
+                      <i class="fa fa-badge-percent navbar__item-icon"></i>
+                      شگفت انگیز ها
+                  </a>
+                  <a href="" class="navbar__item">
+                      <i class="fa fa-gift navbar__item-icon"></i>
+                      کارت هدیه
+                  </a>
+                  <a href="" class="navbar__item">
+                      <i class="fa fa-fire navbar__item-icon"></i>
+                      پر فروش ترین ها
+                  </a>
+                  <hr class="navbar__item-line">
+                  <a href="" class="navbar__item">
+                      سوالی دارید؟
+                  </a>
+                  <a href="" class="navbar__item">
+                      در دیجیکالا بفروشید!
+                  </a>
+              </div>
+              <a href="" class="navbarBottom__left">
+                  <i class="fa fa-location-pin navbarBottom__left"></i>
+                  <p class="navbarBottom__left-text">ارسال به البرز، کرج</p>
+
+              </a>
+          </div>
+    <div class="navbarMobile">
+        <div class="navbarMobile__search-box">
+            <div class="navbarMobile__search-boxRight">
+                <i class="fa fa-search navbarMobile__search-icon"></i>
+                <span class="navbarMobile__search-text">جستوجو در</span>
+                <img src="https://www.digikala.com/brand/typography.svg" class="navbarMobile__search-image">
+            </div>
+            <div class="navbarMobile__search-boxLeft">
+                <a href="" class="navbarMobile__search-boxLink">
+                    <i class="fa fa-camera"></i>
+                </a>
+            </div>
+        </div>
+        <div class="navbarMobile__location">
+            <div class="navbarMobile__location-right">
+                <i class="fa fa-location-pin navbarMobile__location-logo"></i>
+                <p class="navbarMobile__location-text">ارسال به استان البرز، شهر کرج</p>
+            </div>
+
+            <i class="fas fa-angle-left navbarMobile__location-arrow"></i>
+        </div>
+        <ul class="navbarMobile__items">
+            <li class="navbarMobile__item">
+                <a href="" class="navbarMobile__link navbarMobile__link--active">
+                    <i class="fa fa-home navbarMobile__item--logo"></i>
+                    <span class="navbarMobile__item--text">خانه</span>
+                </a>
+            </li>
+            <li class="navbarMobile__item">
+                <a href="" class="navbarMobile__link">
+                    <i class="fa fa-grid-2 navbarMobile__item--logo"></i>
+                    <span class="navbarMobile__item--text">دسته بندی</span>
+                </a>
+            </li>
+            <li class="navbarMobile__item">
+                <a href="" class="navbarMobile__link">
+                    <i class="fa fa-cart-shopping navbarMobile__item--logo"></i>
+                    <span class="navbarMobile__item--text">سبد خرید</span>
+                </a>
+            </li>
+            <li class="navbarMobile__item">
+                <a href="" class="navbarMobile__link">
+                    <i class="fa fa-play navbarMobile__item--logo"></i>
+                    <span class="navbarMobile__item--text">مگنت</span>
+                </a>
+            </li>
+            <li class="navbarMobile__item">
+                <a href="" class="navbarMobile__link">
+                    <i class="fa fa-user navbarMobile__item--logo"></i>
+                    <span class="navbarMobile__item--text">دیجی کالای من</span>
+                </a>
+            </li>
+        </ul>
+    </div>
+  </nav>
+  <div class="swiper storieSlider">
+      <div class="swiper-wrapper">
+
+          <div class="swiper-slide swiper-slide-storieSlider">
+              <a href="" class="storie__item">
+                  <img src="img/drinks.jpg" alt="" class="storie__image">
+                  <p class="storie__text">نوشابه ی آمریکایی</p>
+                  <span class="storie__circle"></span>
+              </a>
+          </div>
+          <div class="swiper-slide swiper-slide-storieSlider">
+              <a href="" class="storie__item">
+                  <img src="img/drinks.jpg" alt="" class="storie__image">
+                  <p class="storie__text">نوشابه ی آمریکایی</p>
+                  <span class="storie__circle"></span>
+              </a>
+          </div>
+          <div class="swiper-slide swiper-slide-storieSlider">
+              <a href="" class="storie__item">
+                  <img src="img/drinks.jpg" alt="" class="storie__image">
+                  <p class="storie__text">نوشابه ی آمریکایی</p>
+                  <span class="storie__circle"></span>
+              </a>
+          </div>
+          <div class="swiper-slide swiper-slide-storieSlider">
+              <a href="" class="storie__item">
+                  <img src="img/drinks.jpg" alt="" class="storie__image">
+                  <p class="storie__text">نوشابه ی آمریکایی</p>
+                  <span class="storie__circle"></span>
+              </a>
+          </div>
+          <div class="swiper-slide swiper-slide-storieSlider">
+              <a href="" class="storie__item">
+                  <img src="img/drinks.jpg" alt="" class="storie__image">
+                  <p class="storie__text">نوشابه ی آمریکایی</p>
+                  <span class="storie__circle"></span>
+              </a>
+          </div>
+          <div class="swiper-slide swiper-slide-storieSlider">
+              <a href="" class="storie__item">
+                  <img src="img/drinks.jpg" alt="" class="storie__image">
+                  <p class="storie__text">نوشابه ی آمریکایی</p>
+                  <span class="storie__circle"></span>
+              </a>
+          </div>
+          <div class="swiper-slide swiper-slide-storieSlider">
+              <a href="" class="storie__item">
+                  <img src="img/drinks.jpg" alt="" class="storie__image">
+                  <p class="storie__text">نوشابه ی آمریکایی</p>
+                  <span class="storie__circle"></span>
+              </a>
+          </div>
+          <div class="swiper-slide swiper-slide-storieSlider">
+              <a href="" class="storie__item">
+                  <img src="img/drinks.jpg" alt="" class="storie__image">
+                  <p class="storie__text">نوشابه ی آمریکایی</p>
+                  <span class="storie__circle"></span>
+              </a>
+          </div>
+          <div class="swiper-slide swiper-slide-storieSlider">
+              <a href="" class="storie__item">
+                  <img src="img/drinks.jpg" alt="" class="storie__image">
+                  <p class="storie__text">نوشابه ی آمریکایی</p>
+                  <span class="storie__circle"></span>
+              </a>
+          </div>
+          <div class="swiper-slide swiper-slide-storieSlider">
+              <a href="" class="storie__item">
+                  <img src="img/drinks.jpg" alt="" class="storie__image">
+                  <p class="storie__text">نوشابه ی آمریکایی</p>
+                  <span class="storie__circle"></span>
+              </a>
+          </div>
+          <div class="swiper-slide swiper-slide-storieSlider">
+              <a href="" class="storie__item">
+                  <img src="img/drinks.jpg" alt="" class="storie__image">
+                  <p class="storie__text">نوشابه ی آمریکایی</p>
+                  <span class="storie__circle"></span>
+              </a>
+          </div>
+          <div class="swiper-slide swiper-slide-storieSlider">
+              <a href="" class="storie__item">
+                  <img src="img/drinks.jpg" alt="" class="storie__image">
+                  <p class="storie__text">نوشابه ی آمریکایی</p>
+                  <span class="storie__circle"></span>
+              </a>
+          </div>
+          <div class="swiper-slide swiper-slide-storieSlider">
+              <a href="" class="storie__item">
+                  <img src="img/drinks.jpg" alt="" class="storie__image">
+                  <p class="storie__text">نوشابه ی آمریکایی</p>
+                  <span class="storie__circle"></span>
+              </a>
+          </div>
+          <div class="swiper-slide swiper-slide-storieSlider">
+              <a href="" class="storie__item">
+                  <img src="img/drinks.jpg" alt="" class="storie__image">
+                  <p class="storie__text">رقیب بهترین ها</p>
+                  <span class="storie__circle"></span>
+              </a>
+          </div>
+
+
+      </div>
+      <div class="swiper-button-next swiper-button-next-storieSlider"></div>
+      <div class="swiper-button-prev swiper-button-prev-storieSlider"></div>
+  </div>
+  <div class="mainSlider swiper">
+      <div class="swiper-wrapper swiper-wrapper-mainSlider">
+          <div class="swiper-slide swiper-slide-mainSlider">
+              <a href="">
+                  <img src="img/s1.webp" alt="sliderImage">
+              </a>
+          </div>
+          <div class="swiper-slide swiper-slide-mainSlider">
+              <a href="">
+                  <img src="img/s2.webp" alt="sliderImage" class="mainSlider__image">
+              </a>
+          </div>
+          <div class="swiper-slide swiper-slide-mainSlider">
+              <a href="">
+                  <img src="img/s3.webp" alt="sliderImage" class="slider__image">
+              </a>
+          </div>
+          <div class="swiper-slide swiper-slide-mainSlider">
+              <a href="">
+                  <img src="img/s4.webp" alt="sliderImage" class="slider__image">
+              </a>
+          </div>
+          <div class="swiper-slide swiper-slide-mainSlider">
+              <a href="">
+                  <img src="img/s5.webp" alt="sliderImage" class="slider__image">
+              </a>
+          </div>
+          <div class="swiper-slide swiper-slide-mainSlider">
+              <a href="">
+                  <img src="img/s6.webp" alt="sliderImage" class="slider__image">
+              </a>
+          </div>
+          <div class="swiper-slide swiper-slide-mainSlider">
+              <a href="">
+                  <img src="img/s7.webp" alt="sliderImage" class="slider__image">
+              </a>
+          </div>
+          <div class="swiper-slide swiper-slide-mainSlider">
+              <a href="">
+                  <img src="img/s8.webp" alt="sliderImage" class="slider__image">
+              </a>
+          </div>
+          <div class="swiper-slide swiper-slide-mainSlider">
+              <a href="">
+                  <img src="img/s9.webp" alt="sliderImage" class="slider__image">
+              </a>
+          </div>
+          <div class="swiper-slide swiper-slide-mainSlider">
+              <a href="">
+                  <img src="img/s10.webp" alt="sliderImage" class="slider__image">
+              </a>
+          </div>
+          <div class="swiper-slide swiper-slide-mainSlider">
+              <a href="">
+                  <img src="img/s11.webp" alt="sliderImage" class="slider__image">
+              </a>
+          </div>
+          <div class="swiper-slide swiper-slide-mainSlider">
+              <a href="">
+                  <img src="img/s12.webp" alt="sliderImage" class="slider__image">
+              </a>
+          </div>
+      </div>
+      <div class="swiper-button-next swiper-button-next-mainSlider"></div>
+      <div class="swiper-button-prev swiper-button-prev-mainSlider"></div>
+      <div class="swiper-pagination swiper-pagination-mainSlider"></div>
+  </div>
+  <div class="swiper option">
+      <div class="swiper-wrapper swiper-wrapper-option">
+          <div class="swiper-slide swiper-slide-option">
+              <a href="" class="option__item">
+                  <img
+                          src="http://dkstatics-public.digikala.com/digikala-bellatrix/5078e83a12dae85d01b7fb4c88fff8d3cdc2ca72_1733051722.png"
+                          alt=""
+                          class="option__item-image">
+                  <span class="option__item-text">سوپرمارکت دیجی کالا</span>
+              </a>
+          </div>
+          <div class="swiper-slide swiper-slide-option">
+              <a href="" class="option__item">
+                  <img
+                          src="https://dkstatics-public.digikala.com/digikala-bellatrix/e4de6f360fcda4f501f21419ba40a100460740cd_1733129128.png"
+                          alt=""
+                          class="option__item-image">
+                  <span class="option__item-text">4 قسطه</span>
+              </a>
+          </div>
+          <div class="swiper-slide swiper-slide-option">
+              <a href="" class="option__item">
+                  <img
+                          src="https://dkstatics-public.digikala.com/digikala-bellatrix/9a876564ff15c2c8c0b15853a5c79d3bec92eecb_1736348602.png"
+                          alt=""
+                          class="option__item-image">
+                  <span class="option__item-text">خرید طلای دیجیتال</span>
+              </a>
+          </div>
+          <div class="swiper-slide swiper-slide-option">
+              <a href="" class="option__item">
+                  <img
+                          src="https://dkstatics-public.digikala.com/digikala-bellatrix/224df0d77f3fa4ee6af84f738dec7c1e608a63ce_1737881892.png"
+                          alt=""
+                          class="option__item-image">
+                  <span class="option__item-text">صرافی تبدیل</span>
+              </a>
+          </div>
+          <div class="swiper-slide swiper-slide-option">
+              <a href="" class="option__item">
+                  <img
+                          src="https://dkstatics-public.digikala.com/digikala-bellatrix/cc90a533986d6672b68f1f38c8683ef94d74c497_1727699529.png"
+                          alt=""
+                          class="option__item-image">
+                  <span class="option__item-text">تخفیف <br> موبایل کارکرده</span>
+              </a>
+          </div>
+          <div class="swiper-slide swiper-slide-option">
+              <a href="" class="option__item">
+                  <img
+                          src="https://dkstatics-public.digikala.com/digikala-bellatrix/25741d55dbc3a0b198d99be964e131f8867e1d9b_1737901172.png"
+                          alt=""
+                          class="option__item-image">
+                  <span class="option__item-text">
+                  از هندزفری <br> تا اسپیکر
+              </span>
+              </a>
+          </div>
+          <div class="swiper-slide swiper-slide-option">
+              <a href="" class="option__item">
+                  <img
+                          src="https://dkstatics-public.digikala.com/digikala-bellatrix/af555782fd731859e3cf6f5dd0267d609f4ea3d5_1734679179.jpg"
+                          alt=""
+                          class="option__item-image">
+                  <span class="option__item-text">خرید طلای فیزیکی</span>
+              </a>
+          </div>
+          <div class="swiper-slide swiper-slide-option">
+              <a href="" class="option__item">
+                  <img
+                          src="https://dkstatics-public.digikala.com/digikala-bellatrix/1c32e9cef8f896485b27dc02f2013d836483f886_1737987876.jpg"
+                          alt=""
+                          class="option__item-image">
+                  <span class="option__item-text">چیدمان خانه</span>
+              </a>
+          </div>
+          <div class="swiper-slide swiper-slide-option">
+              <a href="" class="option__item">
+                  <img
+                          src="https://dkstatics-public.digikala.com/digikala-bellatrix/bb03641a188f3a74ec493d0790da87074492f64b_1708970740.png"
+                          alt=""
+                          class="option__item-image">
+                  <span class="option__item-text">خرید چکی</span>
+              </a>
+          </div>
+          <div class="swiper-slide swiper-slide-option">
+              <a href="#" class="option__item" id="moreOptionOpenButton">
+                    <div class="option__item-image option__item-image--circle">
+                        <div class="option__item-image-innerCircle"></div>
+                    </div>
+                  <span class="option__item-text">بیشتر</span>
+              </a>
+          </div>
+      </div>
+      <div class="moreOption">
+          <div class="moreOption__blackBG">
+
+          </div>
+          <div class="moreOptionScreen">
+              <div class="moreOptionHeader">
+                  <div class="moreOptionHeader__left">
+                      <i class="far fa-smile moreOptionHeader__icon"></i>
+                      <span class="moreOptionHeader__title">خدمات دیجی‌کالا</span>
+                  </div>
+                  <div class="moreOptionHeader__right">
+                      <p class="moreOptionHeader__exitLine moreOptionHeader__exitLine--left"></p>
+                      <p class="moreOptionHeader__exitLine moreOptionHeader__exitLine--right"></p>
+                  </div>
+              </div>
+              <div class="moreOptionSections">
+                  <div class="moreOptionSectionOne">
+
+                      <a href="" class="moreOptionSectionOne__item">
+                          <img src="https://dkstatics-public.digikala.com/digikala-bellatrix/224df0d77f3fa4ee6af84f738dec7c1e608a63ce_1737881892.png" alt="" class="moreOptionSectionOne__image">
+                          <span class="moreOptionSectionOne__title">صرافی تبدیل</span>
+                      </a>
+                      <a href="" class="moreOptionSectionOne__item">
+                          <img src="https://dkstatics-public.digikala.com/digikala-bellatrix/224df0d77f3fa4ee6af84f738dec7c1e608a63ce_1737881892.png" alt="" class="moreOptionSectionOne__image">
+                          <span class="moreOptionSectionOne__title">صرافی تبدیل</span>
+                      </a>
+                      <a href="" class="moreOptionSectionOne__item">
+                          <img src="https://dkstatics-public.digikala.com/digikala-bellatrix/224df0d77f3fa4ee6af84f738dec7c1e608a63ce_1737881892.png" alt="" class="moreOptionSectionOne__image">
+                          <span class="moreOptionSectionOne__title">صرافی تبدیل</span>
+                      </a>
+                      <a href="" class="moreOptionSectionOne__item">
+                          <img src="https://dkstatics-public.digikala.com/digikala-bellatrix/224df0d77f3fa4ee6af84f738dec7c1e608a63ce_1737881892.png" alt="" class="moreOptionSectionOne__image">
+                          <span class="moreOptionSectionOne__title">صرافی تبدیل</span>
+                      </a>
+                      <a href="" class="moreOptionSectionOne__item">
+                          <img src="https://dkstatics-public.digikala.com/digikala-bellatrix/224df0d77f3fa4ee6af84f738dec7c1e608a63ce_1737881892.png" alt="" class="moreOptionSectionOne__image">
+                          <span class="moreOptionSectionOne__title">صرافی تبدیل</span>
+                      </a>
+                      <a href="" class="moreOptionSectionOne__item">
+                          <img src="https://dkstatics-public.digikala.com/digikala-bellatrix/224df0d77f3fa4ee6af84f738dec7c1e608a63ce_1737881892.png" alt="" class="moreOptionSectionOne__image">
+                          <span class="moreOptionSectionOne__title">صرافی تبدیل</span>
+                      </a>
+                      <a href="" class="moreOptionSectionOne__item">
+                          <img src="https://dkstatics-public.digikala.com/digikala-bellatrix/224df0d77f3fa4ee6af84f738dec7c1e608a63ce_1737881892.png" alt="" class="moreOptionSectionOne__image">
+                          <span class="moreOptionSectionOne__title">صرافی تبدیل</span>
+                      </a>
+                  </div>
+                  <p class="moreOptionSections__title">سرویس های گروه دیجی کالا</p>
+                  <div class="moreOptionSectionTwo">
+
+                      <a href="" class="moreOptionSectionTwo__item">
+                          <img src="https://dkstatics-public.digikala.com/digikala-bellatrix/9a876564ff15c2c8c0b15853a5c79d3bec92eecb_1736348602.png" alt="" class="moreOptionSectionTwo__image">
+                          <div class="moreOptionSectionTwo__content">
+                              <span class="moreOptionSectionTwo__title">سوپرمارکت دیجیکالا</span>
+                              <i class="fas fa-arrow-left moreOptionSectionTwo__arrow"></i>
+                              <p class="moreOptionSectionTwo__description">سوپرمارکت دیجی کالا</p>
+                          </div>
+
+                      </a>
+                      <a href="" class="moreOptionSectionTwo__item">
+                          <img src="https://dkstatics-public.digikala.com/digikala-bellatrix/9a876564ff15c2c8c0b15853a5c79d3bec92eecb_1736348602.png" alt="" class="moreOptionSectionTwo__image">
+                          <div class="moreOptionSectionTwo__content">
+                              <span class="moreOptionSectionTwo__title">سوپرمارکت دیجیکالا</span>
+                              <i class="fas fa-arrow-left moreOptionSectionTwo__arrow"></i>
+                              <p class="moreOptionSectionTwo__description">سوپرمارکت دیجی کالا</p>
+                          </div>
+
+                      </a>
+                      <a href="" class="moreOptionSectionTwo__item">
+                          <img src="https://dkstatics-public.digikala.com/digikala-bellatrix/9a876564ff15c2c8c0b15853a5c79d3bec92eecb_1736348602.png" alt="" class="moreOptionSectionTwo__image">
+                          <div class="moreOptionSectionTwo__content">
+                              <span class="moreOptionSectionTwo__title">سوپرمارکت دیجیکالا</span>
+                              <i class="fas fa-arrow-left moreOptionSectionTwo__arrow"></i>
+                              <p class="moreOptionSectionTwo__description">سوپرمارکت دیجی کالا</p>
+                          </div>
+
+                      </a>
+                      <a href="" class="moreOptionSectionTwo__item">
+                          <img src="https://dkstatics-public.digikala.com/digikala-bellatrix/9a876564ff15c2c8c0b15853a5c79d3bec92eecb_1736348602.png" alt="" class="moreOptionSectionTwo__image">
+                          <div class="moreOptionSectionTwo__content">
+                              <span class="moreOptionSectionTwo__title">سوپرمارکت دیجیکالا</span>
+                              <i class="fas fa-arrow-left moreOptionSectionTwo__arrow"></i>
+                              <p class="moreOptionSectionTwo__description">سوپرمارکت دیجی کالا</p>
+                          </div>
+
+                      </a>
+                      <a href="" class="moreOptionSectionTwo__item">
+                          <img src="https://dkstatics-public.digikala.com/digikala-bellatrix/9a876564ff15c2c8c0b15853a5c79d3bec92eecb_1736348602.png" alt="" class="moreOptionSectionTwo__image">
+                          <div class="moreOptionSectionTwo__content">
+                              <span class="moreOptionSectionTwo__title">سوپرمارکت دیجیکالا</span>
+                              <i class="fas fa-arrow-left moreOptionSectionTwo__arrow"></i>
+                              <p class="moreOptionSectionTwo__description">سوپرمارکت دیجی کالا</p>
+                          </div>
+
+                      </a>
+                  </div>
+              </div>
+          </div>
+
+      </div>
+  </div>
+  <div class="swiper mySwiper offer">
+      <div class="swiper-wrapper swiper-wrapper-offer">
+          <div class="swiper-slide swiper-slide-offer offerThumbnail">
+              <img src="https://www.digikala.com/statics/img/svg/specialCarousel/Amazings.svg" class="offerThumbnail__image" alt="">
+                <div class="offerThumbnail__time">
+                    <span class="offerThumbnail__timeNumber">12</span>
+                    <span class="offerThumbnail__timeDot">:</span>
+                    <span class="offerThumbnail__timeNumber">05</span>
+                    <span class="offerThumbnail__timeDot">:</span>
+                    <span class="offerThumbnail__timeNumber">02</span>
+                </div>
+              <img src="https://www.digikala.com/statics/img/svg/specialCarousel/Amazing.svg" alt="" class="offerThumbnail__imagePercentage">
+              <a href="" class="offerThumbnail__link">
+                  مشاهده ی همه
+                  <i class="fas fa-angle-left offerThumbnail__imagePercentageIcon"></i>
+              </a>
+          </div>
+          <div class="swiper-slide swiper-slide-offer">Slide 2</div>
+          <div class="swiper-slide swiper-slide-offer">Slide 3</div>
+          <div class="swiper-slide swiper-slide-offer">Slide 4</div>
+          <div class="swiper-slide swiper-slide-offer">Slide 5</div>
+          <div class="swiper-slide swiper-slide-offer">Slide 6</div>
+          <div class="swiper-slide swiper-slide-offer">Slide 7</div>
+          <div class="swiper-slide swiper-slide-offer">Slide 8</div>
+          <div class="swiper-slide swiper-slide-offer">Slide 9</div>
+      </div>
+
+  </div>
+
+  <script src="lib/font awesome/js/all.js"></script>
+  <script src="lib/swiper/swiper-bundle.min.js"></script>
+  <script src="js/script.js"></script>
+</body>
+</html>

@@ -1,0 +1,43 @@
+@media screen and (max-width: 1400px) {
+    .shape{
+        background: pink;
+    }
+}
+
+@media screen and (max-width: 1200px) {
+
+
+
+
+}
+
+
+@media screen and (max-width: 992px) {
+    .navbarMobile{
+        display: block;
+    }
+    .navbarTop{
+        display: none;
+    }
+    .navbarBottom{
+        display: none;
+    }
+    .navbar{
+        box-shadow: none;
+    }
+}
+
+@media screen and (max-width: 768px) {
+    .shape {
+        background: blue;
+    }
+}
+
+@media screen and (max-width: 576px) {
+    .shape{
+        background: #ED1944;
+    }
+    .navbarMobile__item--text {
+        font-size: 1.1rem;
+    }
+}

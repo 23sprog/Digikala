@@ -1,0 +1,25 @@
+/*@font-face {*/
+/*    font-family: yekan;*/
+/*    font-weight: normal;*/
+/*    src: url("../fonts/yekan/IRANYekanLight.ttf");*/
+/*}*/
+
+@font-face {
+    font-family: yekan;
+    font-weight: bold;
+    src: url("../fonts/yekan/IRANYekanBold.ttf");
+}
+
+@font-face {
+    font-family: yekan;
+    font-weight: 1200;
+    src: url("../fonts/yekan/IRANYekanExtraBold.ttf");
+}
+
+
+@font-face {
+    font-family: yekan;
+    font-weight: normal;
+    src: url("../fonts/yekan/Yekan.ttf");
+}
+
