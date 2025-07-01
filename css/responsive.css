@@ -7,10 +7,18 @@
 @media screen and (max-width: 1200px) {
 
 
-
-
+    .swiper-slide-mainSlider img {
+        height: 35rem;
+    }
 }
+@media screen and (max-width: 1024px) {
 
+
+    .swiper-slide-mainSlider img {
+        height: 22rem;
+        border-radius: 2rem;
+    }
+}
 
 @media screen and (max-width: 992px) {
     .navbarMobile{

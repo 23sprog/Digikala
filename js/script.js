@@ -21,9 +21,25 @@ let mainSlider = new Swiper(".mainSlider", {
     },
     loop:true,
     speed: 400,
+
     // mousewheel: true,
     autoplay:{
         delay: 8000,
+    },
+    // spaceBetween: 0,
+    // slidesPerView: 1,
+    breakpoints:{
+        0:{
+            slidesPerView: 1.1,
+            centeredSlides: true,
+            spaceBetween: 10,
+        },
+        641:{
+            spaceBetween: 0,
+            slidesPerView: 1,
+        },
+
+
     }
 });
 

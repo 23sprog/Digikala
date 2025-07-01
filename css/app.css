@@ -352,6 +352,7 @@ li, ul {
     align-items: center;
     justify-content: center;
     min-width: 7.4rem;
+    max-width: 7.4rem;
     gap: 0.8rem;
     height: auto;
     object-fit: cover;
